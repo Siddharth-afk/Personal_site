@@ -6,6 +6,11 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily:{
+      'sans': ['Belanosima', 'Poppins'],
+      'serif': ['ui-serif', 'Georgia'],
+      'mono': ['Roboto', 'SFMono-Regular'],
+    }
   },
   plugins: [],
 }
