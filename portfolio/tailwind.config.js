@@ -9,6 +9,7 @@ export default {
       colors:{
         'reddish-pink': '#db6363',
         'dark-reddish-pink': '#9f4141',
+        'black-transparent': 'rgb(0,0,0,0.4)',
       },
       keyframes:{
         shake: {
