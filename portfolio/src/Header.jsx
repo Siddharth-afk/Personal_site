@@ -5,11 +5,16 @@ import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import EmailIcon from '@mui/icons-material/Email';
+import { grey } from '@mui/material/colors';
 
 const Header = () => {
     return(
         <>
-            <div className="background-main flex md:h-[100vh] h-[40vh] flex-col">
+            <div className="bg-gradient-to-b  from-reddish-pink from-99% to-pink-300 flex md:h-[100vh] h-[40vh] flex-col">
 
                 <div className='flex px-3 py-3 h-full w-full'>
                     <div className='grid grid-rows-8 gap-1 w-full'>
@@ -52,20 +57,18 @@ const Header = () => {
                                     </div>
                             </div>
 
-                            <div className='mt-12 background-inner flex h-14 w-[50vh] mx-auto rounded-md'>
-
-                            </div>
+                            <div className='mt-12 bg-dark-reddish-pink flex h-14 w-[50vh] mx-auto rounded-md justify-evenly pt-1'>
+                                <a href='https://twitter.com/Siddharth_lol' target='_blank' rel="noreferrer"><TwitterIcon sx={{ color: grey[50], fontSize: 50 }}/></a>
+                                <a href='https://github.com/Siddharth-afk' target='_blank' rel="noreferrer"><GitHubIcon sx={{ color: grey[50], fontSize: 50 }}/></a>
+                                <a href='https://www.linkedin.com/in/siddharthgupta2001/' target='_blank' rel="noreferrer"><LinkedInIcon sx={{ color: grey[50], fontSize: 50 }}/></a>
+                                <a href='mailto:gupta.siddharth20@gmail.com' target='_blank' rel="noreferrer"><EmailIcon sx={{ color: grey[50], fontSize: 50 }}/></a>
+                            </div>  
                         </div>
-
-                        {/* <div className='row-start-4'>
-                            
-                        </div> */}
 
                     </div>
 
 
                 </div>
-              
             </div>
         </>
     )

@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      colors:{
+        'reddish-pink': '#db6363',
+        'dark-reddish-pink': '#9f4141',
+      },
       keyframes:{
         shake: {
           '0%': {transform: 'rotate(0deg)'},
