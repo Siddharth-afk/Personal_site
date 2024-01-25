@@ -7,6 +7,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Mousewheel, Pagination } from 'swiper/modules';*/
 import Aboutme from "./Aboutme";
+import { Hobbies } from "./Hobbies";
 
 
 const App = (() => {
@@ -23,6 +24,9 @@ const App = (() => {
         </div>
         <div className="flex">
           <Aboutme />
+        </div>
+        <div>
+          <Hobbies />
         </div>
     </>
   )

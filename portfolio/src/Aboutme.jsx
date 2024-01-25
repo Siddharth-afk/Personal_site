@@ -137,8 +137,8 @@ const Aboutme = () => {
               <div className="grid grid-rows-3 gap-1 mt-3 mb-3">
 
                 <div className="grid grid-cols-2 gap-1">
-                  <div>
-                  <a href="https://github.com/Siddharth-afk/StockMarketSentimentAnalysis" target="_blank" rel="noreferrer"><span className="font-semibold">Stock Market Sentiment Analysis</span></a>
+                  <div className="hover:text-xl">
+                  <a href="https://github.com/Siddharth-afk/StockMarketSentimentAnalysis" target="_blank" rel="noreferrer"><span className="font-semibold ">Stock Market Sentiment Analysis</span></a>
                   </div>
                   <div>
                     <p className="text-md">ReactJS · Python · Sentiment Analysis</p>
@@ -146,7 +146,7 @@ const Aboutme = () => {
                 </div>
 
                 <div className="grid grid-cols-2 gap-1">
-                  <div>
+                  <div className="hover:text-xl">
                   <a href="https://siddharth-afk.github.io/The-Simon-Game/" target="_blank" rel="noreferrer"><span className="font-semibold">The Simon Game</span></a>
                   </div>
                   <div>
@@ -155,7 +155,7 @@ const Aboutme = () => {
                 </div>
 
                 <div className="grid grid-cols-2 gap-1">
-                  <div>
+                  <div className="hover:text-xl">
                   <a href="https://github.com/Siddharth-afk/twitter-sentiment-analysis" target="_blank" rel="noreferrer"><span className="font-semibold">Twitter Sentiment Analysis</span></a>
                   </div>
                   <div>
@@ -175,14 +175,3 @@ const Aboutme = () => {
 }
 
 export default Aboutme
-
-/* 
-<ul className="list-disc">
-                <a href="https://github.com/Siddharth-afk/StockMarketSentimentAnalysis" target="_blank" rel="noreferrer"><li>Stock Market Sentiment Analysis</li></a>
-                <a href="https://github.com/Siddharth-afk/StockMarketSentimentAnalysis" target="_blank" rel="noreferrer"><li>Stock Market Sentiment Analysis</li></a>
-                <a href="https://github.com/Siddharth-afk/StockMarketSentimentAnalysis" target="_blank" rel="noreferrer"><li>Stock Market Sentiment Analysis</li></a>
-                <a href="https://github.com/Siddharth-afk/StockMarketSentimentAnalysis" target="_blank" rel="noreferrer"><li>Stock Market Sentiment Analysis</li></a>
-              </ul>
-
-              ·
- */
